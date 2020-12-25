@@ -21,35 +21,36 @@
     <!--The position of the text can be changed by only using css-->
     <h2>@Containers</h2>
     <h3>Fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
+    <div class="container">This is a fluid container and it will go till the end of the page.</div>
 
     <h3>Center container</h3>
-    <div>This is a center container and it eill be displayed on the center of the page.</div>
+    <div class="container container-center">This is a center container and it eill be displayed on the center of the page.</div>
     <hr>
     <!--Primary link is the important links it has to be clicked by the user many times while visiting on the website.-->
     <!--But in the case of secondary links it is not htat important that user clicks it or not.-->
     <h2>@Links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
     <hr>
 
     <h2>@Lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <p>This list will not have bullets.</p>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered lists</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -57,17 +58,17 @@
     <hr>
     <!--Navigation Bar-->
     <h2>@navbar</h2>
-    <nav>
-        <div>iamdeveloper</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iamdeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">Aboutus</a>
+            <li class="list-item-inline">
+                <a class="link"href="/">Aboutus</a>
             </li>
         </ul>
     </nav>
