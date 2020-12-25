@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/*Typography is done i.e. selection of the font.
+WE can select two diferent font or same font of different weight.*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
