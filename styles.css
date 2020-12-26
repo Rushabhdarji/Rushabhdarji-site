@@ -76,6 +76,7 @@ container*/
 .hero .hero-image{
     max-width: 400px;
     margin:auto;
+    padding-top: 5rem;
     display: block; 
 }
 .hero .hero-heading{
